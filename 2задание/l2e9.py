@@ -12,3 +12,4 @@ def F(n, n1, m, k):
   else:
     return'нет'
 print(F(n, n1, m, k)) 
+
