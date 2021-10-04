@@ -9,6 +9,6 @@ def F(n, n1, m, k):
     for m1 in range(1, m):
       if k < m * n and k == m * n1 or k == n * m1:
         return 'да'
-      else:
-        return'нет'
+  else:
+    return'нет'
 print(F(n, n1, m, k)) 
