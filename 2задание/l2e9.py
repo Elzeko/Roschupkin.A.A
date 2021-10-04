@@ -1,11 +1,14 @@
 # -- coding: utf-8 --
-a = int(input())
-b = int(input())
-c = int(input())
-d = 0
-def F(a,b,c,d):
-  d = (a * b) / 2
-  if (d == c): 
-    return 'Да'
-  elif (d != c): return 'Нет'
-print(F(a,b,c,d))
+n = int(input())
+n1 = 0
+m = int(input())
+m1 = 0
+k = int(input())
+def F(n, n1, m, k):
+  for n1 in range(1, n):
+    for m1 in range(1, m):
+      if k < m * n and k == m * n1 or k == n * m1:
+        return 'да'
+      else:
+        return'нет'
+print(F(n, n1, m, k)) 
